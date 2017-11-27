@@ -1,0 +1,18 @@
+body {
+    margin: auto;
+    padding: 4rem;
+    width: 85%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+#card-container {
+    margin: auto;
+    width: 85%;
+    height: 40%;
+    border: 1px solid grey;
+}
+
+h1 {
+    text-align: center;
+}
