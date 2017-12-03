@@ -1,4 +1,4 @@
-h1, h2 {
+/* h1, h2 {
   color: darkred;
   font-family: 'Dancing Script', cursive;
 }
@@ -25,11 +25,10 @@ p {
   padding-right: 1rem;
 }
 
-
 img {
   height: 400px;
   width: 100%;
   margin: 0;
   float: right;
   object-fit: cover;
-}
+} */
