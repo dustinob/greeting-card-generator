@@ -1,9 +1,9 @@
 body {
     margin: auto;
     padding: 4rem;
-    width: 85%;
+    width: 75%;
     font-family: 'Roboto Slab', serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #card-container {
@@ -13,6 +13,17 @@ body {
     border: 1px solid grey;
 }
 
+.form-container {
+    margin: 2rem 7%;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 1rem 0;
+
+}
+
 h1 {
     text-align: center;
 }
+

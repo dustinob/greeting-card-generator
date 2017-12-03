@@ -1,0 +1,35 @@
+h1, h2 {
+  color: darkred;
+  font-family: 'Dancing Script', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}
+#card-container {
+  background-color: white;
+}
+.text-container {
+  padding: 4rem 1rem 2rem 1rem;
+  max-height: 400px;
+  overflow: scroll;
+}
+#card-from {
+  float: right;
+  padding-right: 1rem;
+}
+
+
+img {
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  float: right;
+  object-fit: cover;
+}
