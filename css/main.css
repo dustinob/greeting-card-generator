@@ -17,10 +17,20 @@ body {
     margin: 2rem 7%;
 }
 
-input, textarea {
+input, textarea, select {
     width: 100%;
     margin: 1rem 0;
 
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: darkgreen !important;
+}
+
+button:hover {
+    background-color: darkred;
+    color: white;
+    border: white;
 }
 
 h1 {
