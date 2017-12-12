@@ -1,33 +1,31 @@
-h1, h2 {
+h2, h3 {
   color: darkred;
-  font-family: 'Dancing Script', cursive;
-}
-h1 {
-  font-size: 3.5rem;
+  font-family: 'Petit Formal Script', cursive;
 }
 h2 {
+  text-align: center;
   font-size: 2.5rem;
 }
+h3 {
+  font-size: 1.5rem;
+}
 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding-left: 1rem;
 }
-
 #card-container {
   background-color: white;
 }
-
 .text-container {
   padding: 4rem 1rem 2rem 1rem;
   max-height: 400px;
-  overflow: scroll;
+  overflow: hidden;
+  word-wrap: break-word;
 }
-
 #card-from {
   float: right;
   padding-right: 1rem;
 }
-
 
 img {
   height: 400px;
