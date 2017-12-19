@@ -16,6 +16,21 @@
 	<body>
 		<h1>Build Your Own Holiday Cards</h1>
 
+		<form>
+			<label for="title">Card Title:</label>
+			<input type="text" id="title" name="title">
+			<label for="from">From:</label>
+			<input type="text" id="from" name="from">
+			<select id="image">
+				<option value="./img/LHL-Chritmas-Photo.jpg">Human Family</option>
+				<option value="./img/our-family.jpg">Dog Family</option>
+			</select>
+			<label for="msg">Message:</label>
+			<textarea id="msg" name="message"></textarea>
+			<button id="save-button">Save Card</button>
+		</form>
+
+		
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
 		<script src="js/main.js"></script>
