@@ -71,3 +71,28 @@ img {
   float: right;
   object-fit: cover;
 }
+
+@media (max-width: 1000px) {
+  #card-container {
+    max-height: auto;
+  }
+  .one-third.column, .two-thirds.column {
+    width: 100%;
+    float: none;
+  }
+  .column {
+    margin: 0;
+  }
+  img {
+    height: auto;
+  }
+  #snow {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  #snow {
+    height: 155px;
+  }
+}
